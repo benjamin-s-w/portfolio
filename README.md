@@ -1,9 +1,4 @@
-Title:
-
 # portfolio
-
-Subtitle:
-
 My responsive portfolio website: HTML5, CSS3, JavaScript (mobile menu). 
 
 Summary:
