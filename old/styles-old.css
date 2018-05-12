@@ -1,0 +1,611 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {	
+	margin: 0;	
+	padding: 0;	
+	border: 0;	
+	font-size: 100%;	
+	font: inherit;	
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	
+	display: block;
+}
+
+body {	
+	line-height: 1.5;
+}
+
+ol, ul {	
+	list-style: none;
+}
+
+blockquote, q {	
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,q:before, q:after {	
+	content: '';	
+	content: none;
+}
+
+table {	
+	border-collapse: collapse;	
+	border-spacing: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* end reset */
+
+/* default styles--applies to mobile, tablet, and desktop */
+
+body {
+	overflow-x: hidden;
+	font-family: Helvetica, Verdana, sans-serif;
+	word-wrap: break-word;
+	font-size: 1em;
+}
+
+#wrapper {
+	width: 100vw;
+	background-color: rgba(100,100,100,0.9);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+li {
+	font-family: 'Proza Libre', sans-serif;
+}
+
+#header-wrapper {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("img/looking-through-architecture-at-gallery.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	min-height: 100vh;
+	width: 100%;
+	max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header-nav-wrapper {
+	width: 100%;
+}
+
+#menu-button {
+	width: 40px;
+	margin: 2% 3%;
+}
+
+#menu-button img {
+	width: 100%;
+}
+
+nav {
+	visibility: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav ul {
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	margin: 2%;
+}
+
+nav li:last-child {
+	margin: 2% 4% 2% 2%;
+}
+
+#intro {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	left: 0;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#profile-pic {
+	width: 15vw;
+	max-width: 200px;
+	float: left;
+	margin-right: 4%;
+}
+
+#profile-pic img {
+	width: 100%;
+}
+
+#intro h1  {
+	font-size: 4em;
+	font-size: 7.5vw;
+	font-weight: bold;
+	text-align: center;
+}
+
+#intro p {
+	text-align: center;
+}
+
+#down-arrow {
+	width: 5%;
+	height: auto;
+	margin-left: -2.5%;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+
+#down-arrow img {
+	height: auto;
+	width: 100%;
+	vertical-align: bottom;
+}
+
+#content-wrapper {
+	width: 100%;
+	height: auto;
+	background-color: rgba(200,200,200,0.9);
+}
+
+#content {
+	margin: 0 auto;
+}
+
+.project-wrapper {
+	min-height: 300px;
+	width: 100%;
+    padding: 3% 0;
+}
+
+.project {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.project h2 {
+	font-size: 3em;
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+}
+
+.project h3 {
+	font-size: 2em;
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.project p:first {
+	padding: 0 5%;
+	text-align: left;
+}
+
+.project p {
+	margin-top: 15px;
+	padding: 0 5%;
+	text-align: left;
+}
+
+.bio {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bio h2 {
+	font-size: 3em;
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bio p {
+	padding: 0 5%;
+	text-align: left;
+}
+
+.bio ul {
+	margin: 5% 0 0 5%; 
+	text-align: left; 
+	font-size: 1em;	
+}
+
+.featured-image {
+	width: 90%;
+	min-height: 150px;
+	margin: 5% auto;
+	display: block;
+}
+
+.featured-image img {
+	height: auto;
+	width: 100%;
+	vertical-align: initial;
+}
+
+.caption h4 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 5% 0 2% 0;
+}
+
+.caption ul {
+	text-align: left;
+}
+
+.iframe {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	margin: 5% auto;
+	height: 0;
+	width: 90%;
+}
+.iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#footer-wrapper {
+	min-height: 100vh;
+	width: 100%;
+}
+
+footer {
+	height: 100%;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#footer-nav {
+}
+
+#footerTitle {
+	padding-top: 3%;
+}
+
+#footer-nav h2 {
+	color: white;
+	margin: 3%;
+	font-size: 1.4em;
+	border-bottom: 1px solid white;
+}
+
+#footerMenuButton {
+	width: 40px;
+	margin: -1% 3%;
+}
+
+#footerMenuButton img {
+	width: 100%;
+}
+
+#footer-nav li {
+	margin: 5% 3%;
+}
+
+#footer-nav ul {
+	margin: 5% 3%;
+	color: rgb(200,200,200);
+}
+
+#footer-nav ul a {
+	color: white;
+	font-weight: normal;
+}
+
+#return-to-top-link h2 {
+	text-align: center;
+}
+
+/* Floats */
+
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.floatcenter {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Links */
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: gray;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:link, nav li a:visited  {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover, nav li a:focus {
+	text-decoration: none;
+	color: gray;
+}
+
+h1 a:link, h1 a:visited {
+	color: black;
+}
+
+h1 a:hover, h1 a:focus {
+	color: gray;
+}
+
+h2 a:link, h2 a:visited {
+	color: black;
+}
+
+h2 a:hover, h2 a:focus {
+	color: gray;
+}
+
+p a, .caption a {
+	border-bottom: 1px solid black;
+}
+
+/* Things I might need */
+
+.clear {
+	clear: both;
+}
+
+.indent {
+	margin: 1% 0 1% 2%;
+}
+
+.indent-more {
+	margin: 1% 0 1% 4%;
+}
+
+.top-margin {
+	margin-top: 3%;
+}
+
+.noMobile {
+	display: none;
+}
+
+.mobileOnly {
+		display: block;
+}
+
+/* start of query for tablet-size screens */
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	
+	p {
+		font-size: 1.4em;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+	
+	nav li a {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	#intro {
+		width: 90%;
+	}
+	
+	#intro h1 {
+		font-size: 4.5em;
+		font-size: 7.5vw;
+	}
+	
+	#profile-pic {
+		width: 15vw;
+		float: left;
+		margin-right: 4%;
+	}
+	
+	#intro p {
+		font-size: 1.5em;
+	}
+	
+	.featured-image {
+		min-height: 300px;
+		height: auto;
+		margin: 5% auto;
+	}
+	
+	.noMobile {
+		display: block;
+	}
+	
+	.mobileOnly {
+		display: none;
+	}
+	
+	#footer-wrapper {
+		min-height: 75vh;
+	}
+	
+	#footer-nav h2 {
+		font-size: 2.3em;
+	}
+	
+	#footer-nav ul li a {
+		font-size: 1.5em;
+	}
+	
+	#return-to-top-link {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#return-to-top-link h2 a {
+		font-size: 2em;
+	}
+	
+/* end tablet media query */
+}
+
+@media only screen and (min-width: 1000px) {
+	
+	p {
+		font-size: 1.2em;
+		line-height: 1.8em;
+	}
+	
+	.introText { /* intro paragraphs styles */
+		font-size: 1.4em;
+	}
+	
+	#menu-button {
+		display: none;
+	}
+	
+	nav {
+		visibility: visible;
+	}
+
+	nav ul {
+	
+	}
+
+	nav li {
+		display: inline-block;
+	}
+	
+	nav li a {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	#intro p {
+		padding: 0 10%;
+	}
+	
+	#intro h1 {
+		font-size: 4.5em;
+	}
+	
+	.project h2 {
+		font-size: 4em;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.project h3 {
+		font-size: 3.5em;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.bio h2 {
+		font-size: 4em;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.bio ul {
+		margin: 5% 0 0 5%; 
+		text-align: left; 
+		font-size: 1.2em;
+	}
+	
+	.caption h4 {
+		font-size: 2em;
+	}
+	
+	.caption ul {
+		font-size: 1.2em;
+	}
+	
+	#footer-wrapper {
+		min-height: 50vh;
+	}
+	
+	.dist { /* this is to allow the footer nav sections appear side-by-side in larger screen sizes */
+		display: inline-block;
+		width: 45%;
+		vertical-align: top;
+	}
+	
+	.noMobile {
+		display: block;
+	}
+	
+	.mobileOnly {
+		display: none;
+	}
+	
+	#footerTitle {
+		padding-top: 0%;
+	}
+	
+	#footer-nav h2 {
+		font-size: 2em;
+	}
+	
+	#footer-nav li {
+		font-size: 1.7em;
+	}
+	
+	#footer-nav a:hover, a:focus {
+		color: rgba(200,200,200,10);
+	}
+	
+/* end desktop media query */
+}

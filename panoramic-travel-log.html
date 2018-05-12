@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1, maximum-scale=1">
+		<title>Panoramic Travel Log | Benjamin Woodruff | Web Designer</title>
+		<link rel="icon" href="img/profile-icon.png" />
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+		<script src="script.js"></script><!-- for the menu functionality -->
+	</head>
+	<body>
+		<header>
+			<div id="title-row">
+				<h1>
+					<a href="index.html">Benjamin Woodruff</a>
+				</h1>
+				<button id="menu">
+					&#9776;<!-- hamburger icon -->
+					<span class="visually-hidden">Navigation Menu</span>
+				</button>
+			</div>
+			<nav id="nav" class="visually-hidden">
+				<div id="skills-nav-row">
+					<a id="ux" href="index.html">User Experience</a>
+					<a id="web" href="web-design.html">Web Design</a>
+					<a id="con" href="digital-content.html">Digital Content</a>
+				</div>
+				<div id="pages-nav-row">
+					<a id="contact" href="mailto:benswoodruff@gmail.com">Contact</a>
+					<a id="about" href="http://dtc-wsuv.org/bwoodruff16/resume/">About</a>
+				</div>
+			</nav>
+			<p>
+				A passionate Web Designer skilled in HTML5, CSS3, jQuery, and JavaScript. Also able to customize WordPress sites, optimize for users and search engines (SEO), and upgrade product pages with Schema.org metadata for more appealing search engine results.
+			</p>
+		</header><!-- end header -->
+		<section id="content">
+			<article id="panoramic-travel-log" class="project">
+				<h2>
+					<a href="http://dtc-wsuv.org/bwoodruff16/map/index.html" target="_blank">Panoramic Travel Log</a>
+				</h2>
+				<div class="featured-image">
+					<a href="panoramic-travel-log.html">
+						<img src="img/pano-icon.png" alt="a thumbnail image depicting a panoramic 360 degree view">
+					</a>
+				</div>
+				<p>
+					A personal project created to demonstrate a powerful and engaging way to make use of the Google Streetview API to tell a meaningful geo-locative story, which in this case is my own travel history.
+				</p>
+				<h2 class="project-sub-h2">About the Project</h2>
+				<div class="featured-image">
+					<a href="img/pano-screen-shot.png" target="_blank">
+						<img src="img/pano-screen-shot.png" alt="a thumbnail image depicting a screen shot of my panoramic travel log website">
+					</a>
+				</div>
+				<p class="readable">
+					Many students who enter and make it through the Digital Technology and Culture degree start out wanting to be Graphic Designers (including myself). However, in this degree, designers are exposed to some web development as well. This was my first worthwhile project in web programming, which utilizes the Google Streetview API via JavaScript, jQuery to animate the map and panorama screens in the mobile view by means of a couple of colorful buttons, and basic HTML5 and CSS3 to do the rest.
+				</p>
+				<p class="readable">
+					One of the major challenges of the project to begin with is the fact that it isn't just a map project. Making a map with markers laid out on it that are clickable and reference a certain paragraph of text outside the map is one level of difficulty. Making a map with a panorama that has markers that change the position of the panorama is another. Thankfully, I was able to find a number of very good examples online, such as <a href="https://randomstreetview.com/" target="_blank">a random Streetview generator</a> and <a href="https://developers.google.com/maps/documentation/javascript/examples/event-arguments">this Google maps demo</a> of how a user can create markers on a map dynamically by simply clicking the map with their mouse. My project is not exactly like these examples, but they provided some code to play around, get ideas, and experiment with.
+				</p>
+			</article><!-- end panoramic travel log project -->
+		</section><!-- end content -->
+		<footer>
+			<h2>Thanks for Stopping by!</h2>
+			<div id="footer-row">
+				<a id="copyright" href="http://dtc-wsuv.org/bwoodruff16/resume/">
+					&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> by Benjamin Woodruff
+				</a>
+				<a id="return-to-top" href="#">Return to Top</a>
+				<a id="resume" href="https://drive.google.com/file/d/13LzKTYmMtf4GRQLwIFynXDWhD2UOBmQQ/view?usp=sharing">PDF Resumé</a>
+			</div>
+		</footer><!-- end footer -->
+	</body><!-- end body -->
+</html><!-- end html -->

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1, maximum-scale=1">
+		<title>Legal Pad Web App | Benjamin Woodruff | Web Designer</title>
+		<link rel="icon" href="img/profile-icon.png" />
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+		<script src="script.js"></script><!-- for the menu functionality -->
+	</head>
+	<body>
+		<header>
+			<div id="title-row">
+				<h1>
+					<a href="index.html">Benjamin Woodruff</a>
+				</h1>
+				<button id="menu">
+					&#9776;<!-- hamburger icon -->
+					<span class="visually-hidden">Navigation Menu</span>
+				</button>
+			</div>
+			<nav id="nav" class="visually-hidden">
+				<div id="skills-nav-row">
+					<a id="ux" href="index.html">User Experience</a>
+					<a id="web" href="web-designer.html">Web Designer</a>
+					<a id="con" href="digital-content.html">Digital Content</a>
+				</div>
+				<div id="pages-nav-row">
+					<a id="contact" href="mailto:benswoodruff@gmail.com">Contact</a>
+					<a id="about" href="http://dtc-wsuv.org/bwoodruff16/resume/">About</a>
+				</div>
+			</nav>
+			<p>
+				A passionate Web Designer skilled in HTML5, CSS3, jQuery, and JavaScript. Also able to customize WordPress sites, optimize for users and search engines (SEO), and upgrade product pages with Schema.org metadata for more appealing search engine results.
+			</p>
+		</header><!-- end header -->
+		<section id="content">
+			<article id="legal-pad-app" class="project">
+				<h2>
+					<a href="http://dtc-wsuv.org/bwoodruff16/legal-pad-app/index.html" target="_blank">Legal Pad Web App</a>
+				</h2>
+				<div class="featured-image">
+					<a href="legal-pad-app.html">
+						<img src="img/legal-pad-app.png" alt="a thumbnail image depicting a legal style notepad, which represents my legal pad web app project">
+					</a>
+				</div>
+				<p>
+					A personal project that is still in progress and allows users to create notes, save them to their browser's local memory using the HTML Web Storage API, JSON to convert the note objects to strings, and jQuery for animations.
+				</p>
+				<h2 class="project-sub-h2">About the Project</h2>
+				<div class="featured-image">
+					<a href="img/web-app-screen-shot.png" target="_blank">
+						<img src="img/web-app-screen-shot.png" alt="a thumbnail image depicting a screen shot of my panoramic travel log website">
+					</a>
+				</div>
+				<p class="readable">
+					Many students who enter and make it through the Digital Technology and Culture degree start out wanting to be Graphic Designers (including myself). However, in this degree, designers are taught to be developers also. While most students in this program pursue programming simply to make browser-based games or animate visual elements with frameworks like <a href="https://github.com/Prinzhorn/skrollr">Skrollr</a>, I was interested in simplifying online note-taking.
+				</p>
+				<p class="readable">
+					This is my ongoing attempt at creating a lightweight note-taking web app that would allow the user to have full control over their notes while being able to switch machines without losing any data. Since modern browsers sync user settings and website data, one could easily work on any machine and have up to 5MB of notes available in a pinch. While the concept is great and I think the available technology could do it, especially if it were built according to <a href="https://developers.google.com/web/progressive-web-apps/">Google's Progressive Web App standard</a>, I just didn't have enough time in one semester to completely flesh out my idea. Hopefully when time and circumstances permit, I will be able to work on this some more and perhaps finish the app to enable people keep their most important notes nearby with only the help of a browser.
+				</p>
+				<p class="readable">
+					The hardest part of this project wasn't to get the notes to save or load to and from the browser, or to create new HTML nodes that would represent the new saved data, but rather to save larger and more complex objects beyond just a title and text string to the browser and then to retrieve that data based on clicking the appropriate dynamically created HTML node (that didn't previously exist). As the project stands right now, it will save the last created/saved note and its title to Web Storage and if you close the browser tab and return later that last note will be available in the text editor. However, all the notes made prior to the most recent one will be lost forever.
+				</p>
+			</article><!-- end panoramic travel log project -->
+		</section><!-- end content -->
+		<footer>
+			<h2>Thanks for Stopping by!</h2>
+			<div id="footer-row">
+				<a id="copyright" href="http://dtc-wsuv.org/bwoodruff16/resume/">
+					&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> by Benjamin Woodruff
+				</a>
+				<a id="return-to-top" href="#">Return to Top</a>
+				<a id="resume" href="https://drive.google.com/file/d/13LzKTYmMtf4GRQLwIFynXDWhD2UOBmQQ/view?usp=sharing">PDF Resumé</a>
+			</div>
+		</footer><!-- end footer -->
+	</body><!-- end body -->
+</html><!-- end html -->

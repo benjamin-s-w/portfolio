@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1, maximum-scale=1">
+		<title>Microdata Enhancement</title>
+		<!-- Save for later: <meta description="Benjamin Woodruff's microdata enhanced portfolio website"> -->
+		<link rel="icon" href="img/profile-icon.png" />
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Proza+Libre" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header-wrapper" style="background-image: url(img/enhanced-background.png)">
+				<header>
+					<div id="header-nav-wrapper">
+						<a href="#footer-nav">
+							<div id="menu-button" class="floatright">
+								<img src="img/menu-button.png" alt="menu button">
+							</div>
+						<!-- end menu-button -->
+						</a>
+						<nav class="clear floatright">
+							<ul>
+								<li><a href="index.html">Usability</a></li>
+								<li><a href="web-and-seo.html">Web/SEO</a></li>
+								<li><a href="graphic-design.html">Graphics</a></li>
+								<li><a href="mailto:ben.woodruff(at)wsu.edu">Contact</a></li>
+								<li><a href="biography.html">About</a></li>
+							</ul>
+						</nav>
+					<!-- end header-nav-wrapper -->
+					</div>
+					<div id="intro">
+						<h1><a href="#content-wrapper">Enhanced Portfolio Site</a></h1>
+						<p class="introText">Hello, I'm Benjamin Woodruff. Thanks for taking a closer look at my work. Below you will find the content and details about this project. Please feel free to visit my About page or send me an email via the Contact nav button. Have a great day! </p>
+					<!-- end intro -->
+					</div>
+					<div id="down-arrow">
+						<a href="#content">
+							<img src="img/down-arrow.png" alt="a downward facing arrow for navigational purposes">
+						</a>
+					<!-- end down-arrow -->
+					</div>
+				<!-- end header -->
+				</header>
+			<!-- end header-wrapper -->
+			</div>
+			<div id="content-wrapper">
+				<div id="content">
+					<div class="project-wrapper" style="background-color: #E3E2E5;">
+						<article class="project">
+							<h2><a href="http://schema.org" target="_blank">SEO Enhancement Through Schema.org Microdata</a></h2>
+							<p>The intent of this project was to learn if and how I could enhance my portfolio website through the addition of microdata tags in the html code, which would hopefully make my content more easily understood by the search engines. This project isn't necessarily meant to achieve a better SEO ranking directly, but to make it easier for search engines like Google and Bing to display my content in a semantically meaningful way to users, so that they will be more likely to choose my content over other search results. Appealing to the user is the primary means of improving SEO, rather than trying to game your website to the search engines directly.</p>
+							<p>By means of <a href="https://developers.google.com/search/docs/guides/intro-structured-data#multiple-entities-on-the-same-page" target="_blank">structuring</a> my content's data, it will appear differently in a search results page. See the below image for an example of how structured data appears in a SERP:</p>
+							<div class="featured-image" itemscope itemtype="http://schema.org/ImageObject">
+								<img 
+									src="img/enhanced-serp.png" 
+									alt="a thumbnail image depicting a typical search engine results page for structured data, featuring a comparison between non-structured and structured results for a recipe search" 
+									itemprop="image"
+									itemprop="representativeOfPage">
+							<!-- end featured-image -->
+							</div>
+							<p>As seen above, the typical search engine result that isn't enhanced by structured data (as seen in the first, red-boxed result) doesn't look as appealing or as authoritative for the typical user, even though the source (jimmydean.com) is actually more authoritative in terms of Google's algorithm. The three results below (boxed in blue) will probably get more clicks, even though they rank lower. This image clearly shows the benefits of marking up one's content with microdata such as the Schema.org vocabulary uses, especially since <a href="http://schema.org/docs/faq.html" target="_blank">Schema.org was started by the search engines</a>.</p>
+						<!-- end Enhanced Portfolio project -->
+						</article>
+					<!-- end project-wrapper -->
+					</div>
+				<!-- end content -->
+				</div>
+			<!-- end content-wrapper -->
+			</div>
+			<div id="footer-wrapper">
+				<footer>
+					<div id="footer-nav">
+						<div class="dist">
+							<div id="footerTitle">
+								<a href="#wrapper">
+									<div id="footerMenuButton" class="floatright mobileOnly">
+										<img src="img/menu-button.png" alt="menu button">
+									</div>
+								</a>
+								<h2>Menu</h2>
+							</div>
+							<ul>
+								<li><a href="index.html">Usability</a></li>
+								<li><a href="web-and-seo.html">Web/SEO</a></li>
+								<li><a href="graphic-design.html">Graphics</a></li>
+								<li><a href="mailto:ben.woodruff(at)wsu.edu">Contact</a></li>
+								<li><a href="biography.html">About</a></li>
+							</ul>
+						</div>
+						<div class="dist">
+							<h2>Thanks for Stopping by!</h2>
+							<ul>
+								<li>Hi, I'm Benjamin Woodruff and I'm glad you visited my portfolio website today. Please feel free to check out my About page or send me an email via the Contact link above if you would like to talk. Have a great day!</li>
+								<li class="noMobile"><a href="#wrapper">Click Here to Return to Top</a></li>
+							</ul>
+						</div>
+					<!-- end footer-nav -->
+					</div>
+				</footer>
+			<!-- end footer-wrapper -->
+			</div>
+		<!-- end wrapper -->
+		</div>
+	<!-- end body -->
+	</body>
+<!-- end html -->
+</html>
