@@ -55,13 +55,16 @@
 					</a>
 				</div>
 				<p class="readable">
-					Many students who enter and make it through the Digital Technology and Culture degree start out wanting to be Graphic Designers (including myself). However, in this degree, designers are taught to be developers also. While most students in this program pursue programming simply to make browser-based games or animate visual elements with frameworks like <a href="https://github.com/Prinzhorn/skrollr">Skrollr</a>, I was interested in simplifying online note-taking.
+					Many students who enter and make it through the Digital Technology and Culture degree start out wanting to be Graphic Designers (including myself). However, in this degree, designers are exposed to some web development as well. While most of my peers pursued programming simply to make browser-based games or animate visual elements with frameworks like <a href="https://github.com/Prinzhorn/skrollr">Skrollr</a>, I was interested in simplifying online note-taking.
 				</p>
 				<p class="readable">
 					This is my ongoing attempt at creating a lightweight note-taking web app that would allow the user to have full control over their notes while being able to switch machines without losing any data. Since modern browsers sync user settings and website data, one could easily work on any machine and have up to 5MB of notes available in a pinch. While the concept is great and I think the available technology could do it, especially if it were built according to <a href="https://developers.google.com/web/progressive-web-apps/">Google's Progressive Web App standard</a>, I just didn't have enough time in one semester to completely flesh out my idea. Hopefully when time and circumstances permit, I will be able to work on this some more and perhaps finish the app to enable people keep their most important notes nearby with only the help of a browser.
 				</p>
 				<p class="readable">
 					The hardest part of this project wasn't to get the notes to save or load to and from the browser, or to create new HTML nodes that would represent the new saved data, but rather to save larger and more complex objects beyond just a title and text string to the browser and then to retrieve that data based on clicking the appropriate dynamically created HTML node (that didn't previously exist). As the project stands right now, it will save the last created/saved note and its title to Web Storage and if you close the browser tab and return later that last note will be available in the text editor. However, all the notes made prior to the most recent one will be lost forever.
+				</p>
+				<p class="readable">
+					In the future, when I have some extra time or a really good reason to update this project, I would like to look into adding an iframe to the main section to replace the textarea, which would use the contenteditable attribute to make the embedded website's HTML elements fully user-editable. This would make for a much more interesting user experience I believe and a more compelling functionality. I would like to create a series of buttons also, outside the iframe, that would enable users to add styling and various digital files like images, audio, video, documents, and drawings to their notes. One last feature I would want to support eventually would be reminders, so that the app would be somewhat useful for task management. 
 				</p>
 			</article><!-- end panoramic travel log project -->
 		</section><!-- end content -->
