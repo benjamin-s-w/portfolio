@@ -8,12 +8,12 @@ Asside from showing examples of my work, the most useful part about this project
 Information Architecture:
 
 1. User Experience (index.html)
-1.1. Unfolding AR Game and Website UX and Usability Testing
-1.2. Oregon Wildlife Refuge Hi-fi Redesign
-1.3. Ling's Cars Lo-fi Redesign
-1.4. Perpetual Nomads VR Game UX Evaluation
+  a. Unfolding AR Game and Website UX and Usability Testing
+  b. Oregon Wildlife Refuge Hi-fi Redesign
+  c. Ling's Cars Lo-fi Redesign
+  d. Perpetual Nomads VR Game UX Evaluation
 2. Web Design
-2.1. Unfolding AR Game Website Design with WordPress
+  a. Unfolding AR Game Website Design with WordPress
   b. Prodigimedia: Professional Digital Media Blog
   c. Accessibility Website Development
   d. Panoramic Travel Log
