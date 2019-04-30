@@ -8,26 +8,26 @@ Asside from showing examples of my work, the most useful part about this project
 Information Architecture:
 
 1. User Experience (index.html)
-  1. Unfolding AR Game and Website UX and Usability Testing
-  2. Oregon Wildlife Refuge Hi-fi Redesign
-  3. Ling's Cars Lo-fi Redesign
-  4. Perpetual Nomads VR Game UX Evaluation
+   1. Unfolding AR Game and Website UX and Usability Testing
+   2. Oregon Wildlife Refuge Hi-fi Redesign
+   3. Ling's Cars Lo-fi Redesign
+   4. Perpetual Nomads VR Game UX Evaluation
 2. Web Design
-  1. Unfolding AR Game Website Design with WordPress
-  2. Prodigimedia: Professional Digital Media Blog
-  3. Accessibility Website Development
-  4. Panoramic Travel Log
-  5. Legal Pad Web App
+   1. Unfolding AR Game Website Design with WordPress
+   2. Prodigimedia: Professional Digital Media Blog
+   3. Accessibility Website Development
+   4. Panoramic Travel Log
+   5. Legal Pad Web App
 3. Digital Content
-  1. Web Accessibility Infographic
-  2. Web Accessibility Motion Graphic Animation
-  3. Reality Spectrum Infographic
-  4. Fossil Q Smartwatch Animatic
-  5. La Plongée Storytelling Animation
+   1. Web Accessibility Infographic
+   2. Web Accessibility Motion Graphic Animation
+   3. Reality Spectrum Infographic
+   4. Fossil Q Smartwatch Animatic
+   5. La Plongée Storytelling Animation
 4. Contact (mailto:benswoodruff@gmail.com)
 5. About
-  1. Profile Pic
-  2. Skills and Abilities
-  3. Relevant Projects and Experience
-  4. Education
-  5. Military Service
+   1. Profile Pic
+   2. Skills and Abilities
+   3. Relevant Projects and Experience
+   4. Education
+   5. Military Service
